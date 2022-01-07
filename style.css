@@ -30,6 +30,8 @@ body{
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 10px;
 }
 
 #navbar li{
@@ -70,7 +72,7 @@ body{
 	box-sizing: border-box;
 	margin: 0 2.5%;
 	margin-bottom: 50px;
-	height: 480px;
+	min-height: 480px;
 }
 
 .projectListing h1{
@@ -132,3 +134,35 @@ body{
 #resume-gen-description a:hover{
 	background-color: #aab2b5;
 }
+
+.skillTags{
+	font-size: 14px;
+	font-style: italic;
+}
+
+.contactLine ul{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.contactLine li{
+	display: inline;
+	padding-right: 15px;
+	vertical-align: middle;
+}
+
+.contactLine a{
+	list-style: none;
+}
+
+@media(max-width: 800px){
+	.container{
+		width: 100%;
+	}
+
+	#main-header h1{
+		text-align: left;
+	}
+}
+
